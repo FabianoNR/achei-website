@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style-carousel-index.css">
+	<title>Achei</title>
+</head>
+<body>
+    <header class="menu col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="menu-container">
+            <h1>
+                <a href="index.html"><img class="menu-container-logo" src="img/logo.svg" alt="Logo"></a>
+            </h1>
+            <i class="hamburger fa fa-bars" aria-hidden="true"></i>
+            <ul id="menu" class="menu-container-list menu-transparent">
+                <li class="menu-container-list-item">
+                    <a href="sobre.html">Sobre</a>
+                </li>
+				<li class="menu-container-list-item">
+                    <a href="#" data-toggle="modal" data-target="#myModal">Participar</a>
+                </li>
+				<li class="menu-container-list-item">
+                    <a href="#" data-toggle="modal" data-target="#myModal2">Contato</a>
+                </li>
+				<li class="menu-container-list-item">
+                    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                </li>
+				<li class="menu-container-list-item">
+                    <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                </li>
+				<li class="menu-container-list-item">
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+	<div id="App"></div>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCk2OZ90XO40k1twuoc0zOgjRs_ashXdS8",
+            authDomain: "achei-quem-faz.firebaseapp.com",
+            databaseURL: "https://achei-quem-faz.firebaseio.com",
+            projectId: "achei-quem-faz",
+            storageBucket: "achei-quem-faz.appspot.com",
+            messagingSenderId: "949550863077"
+        };
+        firebase.initializeApp(config);
+    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/controller.js"></script>
+
+</body>
+</html>
