@@ -10,20 +10,13 @@ $(document).ready(function(){
         $(".menu-container-list").toggleClass("menu-down");
     });
 	
-	showInitialPage();
+    new IndexService( setView ).loadView();
+    
+	//showInitialPage();
 });
 
-function showInitialPage() {
-	$.get( "../index-search.html", function( data ) {
-        $( "#App" ).html( data );
-		loadIndexFooter();
-    });
-}
-
-function loadIndexFooter(){
-	$.get( "../index-footer.html", function( data ) {
-        $( "#App" ).append( data );
-    });
+function setView( view ) {
+    $( "#App" ).html( view );
 }
 
 /*
