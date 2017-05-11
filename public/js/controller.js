@@ -1,3 +1,6 @@
+var indexService;
+var engineSearchService;
+
 $(document).ready(function(){
     
     $('.carousel').carousel({
@@ -10,13 +13,22 @@ $(document).ready(function(){
         $(".menu-container-list").toggleClass("menu-down");
     });
 	
-    new IndexService( setView ).loadView();
+    indexService = new IndexService( setView );
+    indexService.loadView()
     
-	//showInitialPage();
+    engineSearchService = new EngineSearchService();
+    
 });
 
 function setView( view ) {
     $( "#App" ).html( view );
+}
+
+function searchProvidersChangPage() {
+     //$("#index-search").attr("action", "resultados.html").submit();
+    var filter = $("#index-search-filter").val();
+    var results = engineSearchService.search( filter );
+    console.log( results );
 }
 
 /*

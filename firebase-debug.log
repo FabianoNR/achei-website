@@ -3,24 +3,32 @@
 [debug] CLI Version:  3.7.0
 [debug] Platform:     win32
 [debug] Node Version: v6.10.0
-[debug] Time:         Wed May 10 2017 22:25:32 GMT-0300 (Hora oficial do Brasil)
+[debug] Time:         Wed May 10 2017 23:14:22 GMT-0300 (Hora oficial do Brasil)
 [debug] ----------------------------------------------------------------------
 [debug] 
 [debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/klTcJhnoC5ZUcv-wgTaI_c3x_Xz7oKimN4vyj3hpD0LOzguQty8TVuy79cPbMcVp',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 10 2017 23:14:22 GMT-0300 (Hora oficial do Brasil)
+[debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/achei-quem-faz  
- Wed May 10 2017 22:25:32 GMT-0300 (Hora oficial do Brasil)
+ Wed May 10 2017 23:14:23 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/achei-quem-faz/tokens  
- Wed May 10 2017 22:25:33 GMT-0300 (Hora oficial do Brasil)
+ Wed May 10 2017 23:14:24 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [info] Starting Firebase development server...
 [info] 
 [info] Project Directory: C:\Projetos\achei-website
 [debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/achei-quem-faz  
- Wed May 10 2017 22:25:34 GMT-0300 (Hora oficial do Brasil)
+ Wed May 10 2017 23:14:25 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/949550863077/clients/_:getWebAppConfig  
- Wed May 10 2017 22:25:35 GMT-0300 (Hora oficial do Brasil)
+ Wed May 10 2017 23:14:26 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [info] Public Directory: public
 [info] 
