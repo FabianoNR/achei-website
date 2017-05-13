@@ -24,7 +24,8 @@
                 "user001" : "true",
                 "user002" : "true",
                 "user003" : "true"
-            }
+            },
+            "tags" : "professora;aula;aulas;aula particular;química;professora de química;aulas particulares;reforço escolar"
         },
         "pvd002" : {
             "photo" : "",
@@ -58,7 +59,8 @@
                 "user003" : "true",
                 "user004" : "true",
                 "user005" : "true"
-            }
+            },
+            "tags" : "luthier;conserto;conserto de instrumentos;regulagem de instrumentos;regulagem de instrumento"
         },
         "pvd003" : {
             "photo" : "",
@@ -89,8 +91,9 @@
                 "user013" : "true",
                 "user014" : "true",
                 "user015" : "true"
-            }
-        },
+            },
+            "tags" : "manicure;pedicure;manicure e pedicure;cabelereira;fazer luzes;escova;cabelos;unhas;estética"
+        }
     },
     
     "comments" : {
