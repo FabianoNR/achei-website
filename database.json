@@ -1,0 +1,195 @@
+{
+    "providers" : {
+        "pvd001" : {
+            "photo" : "",
+            "nickname" : "",
+            "profission" : "Professora de Química",
+            "description" : "Cursei química na ULBRA,  pós-graduação em Toxicologia Forense na Feevale  e mestrado na UFRGS na área de Síntese Orgânica. Tenho 15 anos de experiência como professora de nível médio e fundamental.",
+            "location" : "Centro-Canoas",
+            "whatsapp" : "51985186468",
+            "email" : "daniela.rapkiewicz@gmail.com",
+            "facebook" : "Daniela Pletsch",
+            "skype" : "",
+            "instagram" : "",
+            "lower_supply" : { 
+                "price" : "60,00.", 
+                "service" : "Uma hora de aula particular" 
+            },
+            "skills" : {
+                "01" : "Aula de química nível médio e superior",
+                "02" : "Aula de matemática para o nível fundamental (6 ao 9)",
+                "03" : "Aula de ciências para o 9º ano"
+            },
+            "comments" : {
+                "user001" : "true",
+                "user002" : "true",
+                "user003" : "true"
+            }
+        },
+        "pvd002" : {
+            "photo" : "",
+            "nickname" : "Oficina do Franco",
+            "profission" : "Luthier",
+            "description" : "Consertos e manutenção de instrumentos musicais de cordas.",
+            "location" : "Igara-Canoas",
+            "whatsapp" : "51984366516",
+            "email" : "francomello14@gmail.com",
+            "facebook" : "Franco Mello",
+            "skype" : "",
+            "instagram" : "https://www.instagram.com/franco.mello.9/",
+            "lower_supply" : { 
+                "price" : "65,00", 
+                "service" : "Regulagens" 
+            },
+            "skills" : {
+                "01" : "Regulagens",
+                "02" : "Retífica nos trastes",
+                "03" : "Troca de trastes ",
+                "04" : "Manutenção na parte elétrica",
+                "05" : "Blindagem com cobre",
+                "06" : "Rastilho e pestana de osso",
+                "07" : "Troca de peças e acessórios",
+                "08" : "Restauros em geral",
+                "09" : "Pintures e retoques"
+            },
+            "comments" : {
+                "user001" : "true",
+                "user002" : "true",
+                "user003" : "true",
+                "user004" : "true",
+                "user005" : "true"
+            }
+        },
+        "pvd003" : {
+            "photo" : "",
+            "nickname" : "Aninha",
+            "profission" : "Manicure e Cabeleireira",
+            "description" : "Sou manicure e cabeleireira, trabalho com embelezamento de pés e mão, tratamentos capilares e pacotes de serviços.",
+            "location" : "Mathias Velho-Canoas",
+            "whatsapp" : "51991452948",
+            "email" : "espacoazevedo@gmail.com",
+            "facebook" : "https://www.facebook.com/E.AnaAzevedo",
+            "skype" : "",
+            "instagram" : "",
+            "lower_supply" : { 
+                "price" : "35,00", 
+                "service" : "???" 
+            },
+            "skills" : {
+                "01" : "Express - Lixar e Esmaltar",
+                "02" : "Pé e Mão Tradicional - Lixar, Cutilagem e Esmaltação",
+                "03" : "Decoração Mão Livre, Decoração Película, Decoração Pedrarias",
+                "04" : "Spa de Pés - Higieniza, Esfoliação, Emoliência e Hidratação",
+                "05" : "Spa de Mãos - Higieniza, Esfoliação e Hidratação",
+                "06" : "Pacotes de Escova e Hidratação"
+            },
+            "comments" : {
+                "user011" : "true",
+                "user012" : "true",
+                "user013" : "true",
+                "user014" : "true",
+                "user015" : "true"
+            }
+        },
+    },
+    
+    "comments" : {
+        "pvd001" : {
+            "user001" : {
+                "photo" : "",
+                "username": "Regina cornelli", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "95508884"
+            },
+            "user002" : {
+                "photo" : "",
+                "username": "Emanuelli", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "92641617"
+            },
+            "user003" : {
+                "photo" : "",
+                "username": "Bete", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "96778822"
+            }
+        },
+        "pvd002" : {
+            "user006" : {
+                "photo" : "",
+                "username": "Camila", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "984366496"
+            },
+            "user007" : {
+                "photo" : "",
+                "username": "Isaac", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "999244456"
+            },
+            "user008" : {
+                "photo" : "",
+                "username": "Pedro", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "981512625"
+            },
+            "user009" : {
+                "photo" : "",
+                "username": "Alexandre", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "995579750"
+            },
+            "user010" : {
+                "photo" : "",
+                "username": "Fabian", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "982991601"
+            }
+        },
+        "pvd003" : {
+            "user011" : {
+                "photo" : "",
+                "username": "Dinara", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "993128947"
+            },
+            "user012" : {
+                "photo" : "",
+                "username": "Mainara", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "991578233"
+            },
+            "user013" : {
+                "photo" : "",
+                "username": "Danielle", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "995301157"
+            },
+            "user014" : {
+                "photo" : "",
+                "username": "Adriana", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "999248217"
+            },
+            "user015" : {
+                "photo" : "",
+                "username": "Michelle", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "981422886"
+            }
+        }
+    }
+}
