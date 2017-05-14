@@ -22,13 +22,14 @@ $(document).ready(function(){
 
 function setView( view ) {
     $( "#App" ).html( view );
-}
+};
 
 function searchProvidersChangePage() {
-     //$("#index-search").attr("action", "resultados.html").submit();
     var filter = $("#index-search-filter").val();
     engineSearchService.search( filter );
-}
+};
+
+//$("#index-search").attr("action", "resultados.html").submit();
 
 /*
     var database = firebase.database();

@@ -9,8 +9,8 @@ function ProvidersRepository() {
         });
     };
     
-    var getByTags = function( token, tryBuildView ) {
-        return getDB( token ).once('value').then(function(snapshot) {
+    this.getProvidersByTags = function( tags, callback ) {
+        return getDB( tags ).once('value').then(function(snapshot) {
             callback.call( data, snapshot.val() );
             console.log("consultando base de dados...");
         }); 
@@ -20,4 +20,4 @@ function ProvidersRepository() {
         uri += ( uriComplement === undefined ) ? '' : uriComplement;
         return firebase.database().ref( uri );
     };
-}
+};
