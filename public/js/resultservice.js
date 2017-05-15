@@ -1,11 +1,14 @@
-function EngineSearchService( callback ) {
+function ResultService( callback, idOfSearchInput ) {
     var callback = callback;
     var builder = new ResultBuilder();
     var repository = new ProvidersRepository();
     var resultsViewSample = "";
+    var searchInputID = idOfSearchInput;
     
     
-    this.loadResultViewFrom = function( userInput ) {
+    this.loadView = function() {
+        var userInput = getUserInput();
+        
         if( isValid( userInput ) ){
             var tags = userInput.toLowerCase();
             //return repository.getProvidersByTags( tags, tryBuildView );
@@ -26,14 +29,18 @@ function EngineSearchService( callback ) {
         callback.call( view, resultView );
     };
     
-    var isValid = function( filter ) {
-      return filter !== undefined && filter !== "";  
+    var isValid = function( userInput ) {
+      return userInput !== undefined && userInput !== "";  
     };
     
     var loadResultsView = function () {
         $.get( "../resultados.html", function( data ) {
             resultsViewSample = data;
         });
+    };
+    
+    var getUserInput = function() {
+        return $(searchInputID).val();  
     };
     
     loadResultsView();

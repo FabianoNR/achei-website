@@ -16,7 +16,7 @@ $(document).ready(function(){
     indexService = new IndexService( setView );
     indexService.loadView()
     
-    engineSearchService = new EngineSearchService( setView );
+    resultService = new ResultService( setView, "#index-search-filter" );
     
 });
 
@@ -25,8 +25,8 @@ function setView( view ) {
 };
 
 function searchProvidersChangePage() {
-    var userInput = $("#index-search-filter").val();
-    engineSearchService.loadResultViewFrom( userInput );
+    //var userInput = $("#index-search-filter").val();
+    resultService.loadView();
 };
 
 //$("#index-search").attr("action", "resultados.html").submit();
