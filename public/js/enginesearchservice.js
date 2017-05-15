@@ -1,32 +1,40 @@
 function EngineSearchService( callback ) {
     var callback = callback;
+    var builder = new ResultBuilder();
     var repository = new ProvidersRepository();
+    var resultsViewSample = "";
     
-    this.search = function( filter ) {
-        if( isValid( filter ) ){
-            var tags = filter.toLowerCase();
+    
+    this.loadResultViewFrom = function( userInput ) {
+        if( isValid( userInput ) ){
+            var tags = userInput.toLowerCase();
             //return repository.getProvidersByTags( tags, tryBuildView );
             return repository.getAll( tryBuildView );
         }
     };
     
     var tryBuildView = function( data ) {
-        var builder = new ResultBuilder();
-        
+        //resultsViewSample != "";
+        var providerItemList = "";
         $.map( data, function( provider, providerID ) {
-            console.log( builder.build( provider ) );
+            providerItemList += builder.build( provider );
         });
+        
+        var resultView = resultsViewSample.replace( 'data-provider-item', providerItemList );
+        
+        var view;
+        callback.call( view, resultView );
     };
     
     var isValid = function( filter ) {
       return filter !== undefined && filter !== "";  
     };
     
+    var loadResultsView = function () {
+        $.get( "../resultados.html", function( data ) {
+            resultsViewSample = data;
+        });
+    };
+    
+    loadResultsView();
 };
-
-/*
- console.log( "Index: " + providerID );
-            console.log( "Nome do fornecedor: " + provider.nickname );
-            console.log( "descrição: " + provider.description );
-            console.log( "Preço a partir de: " + provider.lower_supply.price );
-*/

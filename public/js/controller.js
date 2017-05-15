@@ -25,8 +25,8 @@ function setView( view ) {
 };
 
 function searchProvidersChangePage() {
-    var filter = $("#index-search-filter").val();
-    engineSearchService.search( filter );
+    var userInput = $("#index-search-filter").val();
+    engineSearchService.loadResultViewFrom( userInput );
 };
 
 //$("#index-search").attr("action", "resultados.html").submit();

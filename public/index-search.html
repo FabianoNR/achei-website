@@ -1,31 +1,61 @@
-<!-- Hero -->
-<section class="hero col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-
-    <!-- Carousel slide background -->
-
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-        <div class="carousel-inner" role="listbox">
-            <div class="item active"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </div>
-    </div>
-    <!-- End carousel slide background -->
-
-    <div class="hero-fluid col-8 col-sm-12 col-md-12 col-lg-8 col-xl-3">
-        <h2 class="hero-title">PESSOAS AGUARDAM VOCÊ, ESTE É O MOMENTO DE ACHÁ-LAS</h2>
-        <form onsubmit="searchProvidersChangePage(); return false;">	
-            <div class="hero-form col-6 col-sm-6 col-md-8 col-lg-10 col-xl-10">
-                <div class="input-group">
-                    <input id="index-search-filter" type="text" class="hero-search form-control" placeholder=" De quem você precisa hoje?">
-                    <span class="hero-search-button input-group-btn">
-                        <input name="bt-search" class="hero-search-button btn btn-success" type="submit" value="Buscar">
-                    </span>
-                </div>
+<div class="container-index">
+    <header class="menu col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="menu-container">
+            <h1>
+                <a href="index.html"><img class="menu-container-logo" src="img/logo.svg" alt="Logo"></a>
+            </h1>
+           <i class="hamburger fa fa-bars" aria-hidden="true"></i>
+           <ul id="menu" class="menu-container-list menu-transparent">
+               <li class="menu-container-list-item">
+                   <a href="sobre.html">Sobre</a>
+               </li>
+               <li class="menu-container-list-item">
+                   <a href="#" data-toggle="modal" data-target="#myModal">Participar</a>
+               </li>
+               <li class="menu-container-list-item">
+                   <a href="#" data-toggle="modal" data-target="#myModal2">Contato</a>
+               </li>
+               <li class="menu-container-list-item">
+                   <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+               </li>
+               <li class="menu-container-list-item">
+                   <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+               </li>
+               <li class="menu-container-list-item">
+                   <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+               </li>
+           </ul>
+       </nav>
+    </header>
+    <!-- Hero -->
+    <section class="hero col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        
+        <!-- Carousel slide background -->
+        
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            
+            <div class="carousel-inner" role="listbox">
+                <div class="item active"></div>
+                <div class="item"></div>
+                <div class="item"></div>
             </div>
-        </form>
-    </div>
-
-</section>
-<!-- End hero -->
+        </div>
+        <!-- End carousel slide background -->
+        
+        <div class="hero-fluid col-8 col-sm-12 col-md-12 col-lg-8 col-xl-3">
+            <h2 class="hero-title">PESSOAS AGUARDAM VOCÊ, ESTE É O MOMENTO DE ACHÁ-LAS</h2>
+            <form onsubmit="searchProvidersChangePage(); return false;">	
+                <div class="hero-form col-6 col-sm-6 col-md-8 col-lg-10 col-xl-10">
+                    <div class="input-group">
+                        <input id="index-search-filter" type="text" class="hero-search form-control" placeholder=" De quem você precisa hoje?">
+                        <span class="hero-search-button input-group-btn">
+                            <input name="bt-search" class="hero-search-button btn btn-success" type="submit" value="Buscar">
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    <!-- End hero -->
+</div>

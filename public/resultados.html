@@ -1,37 +1,49 @@
-<form class="form-result col-6 col-sm-6 col-md-8 col-lg-5 col-xl-6">
-    <div class="">
-        <div class="input-group">
-            <input type="text" class="form-result-search form-control" placeholder=" De quem você precisa hoje?">
-            <span class="form-result-search-button input-group-btn">
-                <input name="bt-search" class="form-result-button btn btn-success" type="submit" value="Buscar">
-            </span>
+<div class="container">
+    <header class="menu menu-black col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="menu-container">
+            <h1>
+                <a href="index.html">
+                    <img class="menu-container-logo" src="img/logo.svg" alt="Logo">
+                </a>
+            </h1>
+            <i class="hamburger fa fa-bars" aria-hidden="true"></i>
+            <ul id="menu" class="menu-container-list">
+                <li class="menu-container-list-item"><a href="sobre.html">Sobre</a></li>
+				<li class="menu-container-list-item"><a href="#" data-toggle="modal" data-target="#myModal">Participar</a></li>
+				<li class="menu-container-list-item"><a href="#" data-toggle="modal" data-target="#myModal2">Contato</a></li>
+				<li class="menu-container-list-item"><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li class="menu-container-list-item"><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+				<li class="menu-container-list-item"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="form-result col-6 col-sm-6 col-md-8 col-lg-5 col-xl-6">
+        <div class="">
+            <div class="input-group">
+                <input type="text" class="form-result-search form-control" placeholder=" De quem você precisa hoje?">
+                <span class="form-result-search-button input-group-btn">
+                    <input name="bt-search" class="form-result-button btn btn-success" type="submit" value="Buscar">
+                </span>
+            </div>
+        </div>
+    </form>	
+
+    <section class="result-search col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+        <ul class="result-search-list">
+            data-provider-item
+        </ul>
+    </section>
+</div>
+<footer class="footer-result">
+    <div class="footer-result-container">
+        <div class="footer-result-container-copy">
+        © Copyright 2017 - Achei | Todos direitos reservados
+        </div>
+        <div class="footer-result-container-by">
+        Desenvolvido por <a href="http://www.mountt.me" target="_blank">
+            <img class="footer-result-container-by-img" src="img/logo-footer.png" alt=""></a>
         </div>
     </div>
-</form>	
-
-<section class="result-search col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-    <ul class="result-search-list">
-        <li class="result-search-list-item">
-            <h3>Marcos Ribeiro</h3>
-            <div class="result-search-coments">
-                <span>5 </span><i class="fa fa-comment" aria-hidden="true"></i>
-                <ul class="result-search-coments-list">
-                    <li class="result-search-coments-list-item"></li>
-                </ul>
-            </div>
-            <div class="result-search-list-item-image">
-                <a class="result-search-list-item-link" href="perfil.html">Saiba +</a>
-                <img class="result-search-list-item-img" src="img/guitar.jpg" alt="">
-            </div>
-            <div class="result-search-list-item-description">
-                <h4 class="result-search-list-item-description-title">Professor de violão</h4>
-                <p class="result-search-list-item-description-details">
-                    "Ha cinco anos ajudando pessoal a realizarem o sonho de expô brilhantemente o que Deus lhe deu de tão belo, a voz. Faça uma aula gratuita, você irá se descobrir."
-                </p>
-            </div>
-            <p>a partir de <strong>R$ 120,00</strong></p>
-            <a href="#" class="result-search-list-item-description-link" data-toggle="modal" data-target="#myModal3">Entrar em contato</a>
-        </li>
-    </ul>
-</section>
+</footer>
 
