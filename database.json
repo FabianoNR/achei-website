@@ -12,7 +12,7 @@
             "skype" : "",
             "instagram" : "",
             "lower_supply" : { 
-                "price" : "60,00.", 
+                "price" : "60,00", 
                 "service" : "Uma hora de aula particular" 
             },
             "skills" : {
@@ -93,6 +93,176 @@
                 "user015" : "true"
             },
             "tags" : "manicure;pedicure;manicure e pedicure;cabelereira;fazer luzes;escova;cabelos;unhas;estética"
+        },
+        "pvd004" : {
+            "photo" : "",
+            "nickname" : "Allan",
+            "profission" : "Fisioterapeuta",
+            "description" : "Cuidando e reabilitando pessoas com muito carinho e cuidado desde 2012.",
+            "location" : "Centro-Canoas",
+            "whatsapp" : "51982080889",
+            "email" : "allan.pfort@gmail.com",
+            "facebook" : "Allan Pfort",
+            "skype" : "",
+            "instagram" : "",
+            "lower_supply" : { 
+                "price" : "90,00", 
+                "service" : "???" 
+            },
+            "skills" : {
+                "01" : "Especialista em pediatria e fisioterapia respiratória",
+                "02" : "Apto atendimento domiciliar e para reabilitação em neurologia e traumatologia"
+            },
+            "comments" : {
+                "user016" : "true",
+                "user017" : "true",
+                "user018" : "true"
+            },
+            "tags" : "fisioterapia;fisioterapeuta;tratramento"
+        },
+        "pvd005" : {
+            "photo" : "",
+            "nickname" : "J.Danilo",
+            "profission" : "Marketing Digital",
+            "description" : "Consigo ajudar você a interagir e atrair seu público de forma simples e organizada que ajuda desde o reconhecimento da marca até o desenvolvimento do trabalho.",
+            "location" : "Estância Velha-Canoas",
+            "whatsapp" : "051982799379",
+            "email" : "jonathanbbriao@gmail.com",
+            "facebook" : "",
+            "skype" : "",
+            "instagram" : "@jdanilooficial",
+            "lower_supply" : { 
+                "price" : "70,00", 
+                "service" : "Peça para mídias ou impressos" 
+            },
+            "skills" : {
+                "01" : "Gerenciamento de site",
+                "02" : "Social Midia",
+                "03" : "Marketing Direto (e-mail marketing)",
+                "04" : "Criação de peças e layouts",
+                "05" : "Edição de texto para site"
+            },
+            "comments" : {
+                "user021" : "true",
+                "user022" : "true",
+                "user023" : "true",
+                "user024" : "true"
+            },
+            "tags" : "marketing;marketing digital;propaganda"
+        },
+        "pvd006" : {
+            "photo" : "",
+            "nickname" : "Anderson Santos",
+            "profission" : "Marceneiro",
+            "description" : "Sou marceneiro, cursando Desing de produto no Unilasalle com objetivo de aprimorar o desenvolvimento de projetos de mobiliário.",
+            "location" : "Rio Branco-Canoas",
+            "whatsapp" : "051991591830",
+            "email" : "00andersonsantos@gmail.com",
+            "facebook" : "Anderson Santos",
+            "skype" : "",
+            "instagram" : "",
+            "lower_supply" : { 
+                "price" : "00,00", 
+                "service" : "" 
+            },
+            "skills" : {
+                "01" : "Projeto de mobiliário",
+                "02" : "Montagem e conserto de móveis",
+                "03" : "Restauro de móveis(mediante avaliação)",
+                "04" : "Personalização de móveis usados"
+            },
+            "comments" : {
+                "user026" : "true",
+                "user027" : "true",
+                "user028" : "true",
+                "user029" : "true",
+                "user030" : "true"
+            },
+            "tags" : "marcenarica,maerceneiro,instalacao móveis"
+        },
+        "pvd007" : {
+            "photo" : "",
+            "nickname" : "Karen e Sofia Bugani",
+            "profission" : "Confeitaria",
+            "description" : "Duas irmãs com uma paixão em comum: confeitaria. Todos os nossos bolos, cupcakes e doces feitos com muita delicadeza, dedicação e com um sabor incomparável.",
+            "location" : "Igara-Canoas",
+            "whatsapp" : "051999251720",
+            "email" : "sofia.m.c.bugani@hotmail.com",
+            "facebook" : "Micaela Bugani",
+            "skype" : "",
+            "instagram" : "cupcakesbugani",
+            "lower_supply" : { 
+                "price" : "2,50", 
+                "service" : "Mini cupcake - unidade" 
+            },
+            "skills" : {
+                "01" : "Cupcakes e bolos de aniversário simples e personalizados de diferentes sabores",
+                "02" : "Durante a páscoa, dia dos namorados, dia das mães e natal produzimos ovos recheados, corações recheados e chocotones trufados"
+            },
+            "comments" : {
+                "user031" : "true",
+                "user032" : "true",
+                "user033" : "true",
+                "user034" : "true"
+            },
+            "tags" : "cupcakes;cupcake;bolo;bolos;festa"
+        },
+        "pvd008" : {
+            "photo" : "",
+            "nickname" : "Laizi",
+            "profission" : "Maquiadora",
+            "description" : "Sou maquiadora, estudante de Estética e cosmética e atuo na área a mais de 6 anos!",
+            "location" : "Fátima-Canoas",
+            "whatsapp" : "51986439189",
+            "email" : "laizilylu@hotmail.com",
+            "facebook" : "Laizi Yani",
+            "skype" : "",
+            "instagram" : "laiziuani_makeup",
+            "lower_supply" : { 
+                "price" : "30,00", 
+                "service" : "???" 
+            },
+            "skills" : {
+                "01" : "Maquiadora",
+                "02" : "Designer de sobrancelhas",
+                "03" : "Extensionista de cílios",
+                "04" : "Consultora Mary kay"
+            },
+            "comments" : {
+                "user036" : "true",
+                "user037" : "true",
+                "user038" : "true"
+            },
+            "tags" : "maquiagem;maquiadora;festa"
+        },
+        "pvd009" : {
+            "photo" : "",
+            "nickname" : "Cléo Aventais e Camisetas",
+            "profission" : "Confecção de camisetas e aventais",
+            "description" : "Faço camisetas e aventais personalizadas com serigrafias e bordados.",
+            "location" : "São José-Canoas",
+            "whatsapp" : "51984915224",
+            "email" : "cleo.marconatto@hotmail.com",
+            "facebook" : "Cleonice Marconatto Machado",
+            "skype" : "",
+            "instagram" : "",
+            "lower_supply" : { 
+                "price" : "20,00", 
+                "service" : "Camisetas e aventais" 
+            },
+            "skills" : {
+                "01" : "Aventais e  e lixeiras de carro.",
+                "02" : "Toalhas de mesas para restaurantes",
+                "03" : "lixeiras de carro"
+            },
+            "comments" : {
+                "user041" : "true",
+                "user042" : "true",
+                "user043" : "true",
+                "user044" : "true",
+                "user045" : "true"
+            },
+            "tags" : "camiseta;camisetas;confecção;aventais;camiseta personalizadas"
         }
     },
     
@@ -192,6 +362,186 @@
                 "comment" : "",
                 "timestamp" : "",
                 "whatsapp" : "981422886"
+            }
+        },
+        "pvd004" : {
+            "user016" : {
+                "photo" : "",
+                "username": "Sally Poubel", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "9830205005"
+            },
+            "user017" : {
+                "photo" : "",
+                "username": "Marlen", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "982080887"
+            },
+            "user018" : {
+                "photo" : "",
+                "username": "Werner", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "997253099"
+            }
+        },
+        "pvd005" : {
+            "user021" : {
+                "photo" : "",
+                "username": "Focalise", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            },
+            "user022" : {
+                "photo" : "",
+                "username": "Freelancer", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            },
+            "user023" : {
+                "photo" : "",
+                "username": "Unisinos", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            },
+            "user024" : {
+                "photo" : "",
+                "username": "Igreja Mover", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            }
+        },
+        "pvd006" : {
+            "user026" : {
+                "photo" : "",
+                "username": "Adriano Follmann", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "982013076"
+            },
+            "user027" : {
+                "photo" : "",
+                "username": "Cleusa Graebin", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "993229558"
+            },
+            "user028" : {
+                "photo" : "",
+                "username": "Cintia", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "991013108"
+            },
+            "user029" : {
+                "photo" : "",
+                "username": "Milena Alles", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "980237743"
+            },
+            "user030" : {
+                "photo" : "",
+                "username": "Lilian", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "992251445"
+            },
+        },
+        "pvd007" : {
+            "user031" : {
+                "photo" : "",
+                "username": "Melissa Flor", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "5182535541"
+            },
+            "user032" : {
+                "photo" : "",
+                "username": "Marri", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "5192823900"
+            },
+            "user033" : {
+                "photo" : "",
+                "username": "Elisa", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "5185790280"
+            },
+            "user034" : {
+                "photo" : "",
+                "username": "Nicol", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "5192478160"
+            }
+        },
+        "pvd008" : {
+            "user036" : {
+                "photo" : "",
+                "username": "Lolita Feijó", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "05134668525"
+            },
+            "user037" : {
+                "photo" : "",
+                "username": "Pró Cabelo", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "05134767391"
+            },
+            "user038" : {
+                "photo" : "",
+                "username": "Pâmela Ramos", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : "051996992051"
+            }
+        },
+        "pvd009" : {
+            "user041" : {
+                "photo" : "",
+                "username": "Igreja do Mover Sede", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            },
+            "user042" : {
+                "photo" : "",
+                "username": "Igreja do Mover Guajuviras", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            },
+            "user043" : {
+                "photo" : "",
+                "username": "Restaurante Pena Branca POA", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            },
+             "user044" : {
+                "photo" : "",
+                "username": "JM Auto center (anexo Big)", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
+            },
+             "user045" : {
+                "photo" : "",
+                "username": "Padaria Araguaia", 
+                "comment" : "",
+                "timestamp" : "",
+                "whatsapp" : ""
             }
         }
     }
