@@ -409,6 +409,9 @@ a:focus, a:hover {
 .result-search-list-item-description-details{
 	width: 100%;
 	min-height: 111px;
+    max-height: 111px;
+    overflow-y: auto;
+    font-size: 0.9400em;
 }
 
 .result-search-list-item-description-link{

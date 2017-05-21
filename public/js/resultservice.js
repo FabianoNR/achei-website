@@ -1,6 +1,6 @@
 function ResultService( callback, idOfSearchInput ) {
     var callback = callback;
-    var builder = new ResultBuilder();
+    var builder;
     var repository = new ProvidersRepository();
     var resultsViewSample = "";
     var searchInputID = idOfSearchInput;
@@ -17,11 +17,7 @@ function ResultService( callback, idOfSearchInput ) {
     };
     
     var tryBuildView = function( data ) {
-        //resultsViewSample != "";
-        var providerItemList = "";
-        $.map( data, function( provider, providerID ) {
-            providerItemList += builder.build( provider );
-        });
+        var providerItemList = builder.build( data );
         
         var resultView = resultsViewSample.replace( 'data-provider-item', providerItemList );
         
@@ -39,9 +35,16 @@ function ResultService( callback, idOfSearchInput ) {
         });
     };
     
+    var loadResultSearchItemView = function () {
+        $.get( "../result-search-item.html", function( data ) {
+            builder = new ResultBuilder( data );
+        });
+    };
+    
     var getUserInput = function() {
         return $(searchInputID).val();  
     };
     
     loadResultsView();
+    loadResultSearchItemView();
 };

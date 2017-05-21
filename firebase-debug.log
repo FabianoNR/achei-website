@@ -3,7 +3,7 @@
 [debug] CLI Version:  3.7.0
 [debug] Platform:     win32
 [debug] Node Version: v6.10.0
-[debug] Time:         Sat May 13 2017 14:42:31 GMT-0300 (Hora oficial do Brasil)
+[debug] Time:         Sun May 21 2017 14:52:55 GMT-0300 (Hora oficial do Brasil)
 [debug] ----------------------------------------------------------------------
 [debug] 
 [debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
@@ -13,22 +13,22 @@
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sat May 13 2017 14:42:31 GMT-0300 (Hora oficial do Brasil)
+ Sun May 21 2017 14:52:55 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/achei-quem-faz  
- Sat May 13 2017 14:42:32 GMT-0300 (Hora oficial do Brasil)
+ Sun May 21 2017 14:52:56 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/achei-quem-faz/tokens  
- Sat May 13 2017 14:42:33 GMT-0300 (Hora oficial do Brasil)
+ Sun May 21 2017 14:52:58 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [info] Starting Firebase development server...
 [info] 
 [info] Project Directory: C:\Projetos\achei-website
 [debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/achei-quem-faz  
- Sat May 13 2017 14:42:34 GMT-0300 (Hora oficial do Brasil)
+ Sun May 21 2017 14:52:58 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/949550863077/clients/_:getWebAppConfig  
- Sat May 13 2017 14:42:35 GMT-0300 (Hora oficial do Brasil)
+ Sun May 21 2017 14:52:59 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [info] Public Directory: public
 [info] 
