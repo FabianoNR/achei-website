@@ -24,19 +24,13 @@ function setView( view ) {
     $( "#App" ).html( view );
 };
 
-function searchProvidersChangePage() {
-    //var userInput = $("#index-search-filter").val();
+function searchProvidersFromIndexView() {
     resultService.loadView();
 };
 
+function searchProvidersFromResultsView() {
+    resultService.loadJustListView();
+};
+
+
 //$("#index-search").attr("action", "resultados.html").submit();
-
-/*
-    var database = firebase.database();
-    
-    return firebase.database().ref('/categories/car').once('value').then(function(snapshot) {
-      var carName = snapshot.val().name;
-      console.log(carName);
-    });
-
-*/

@@ -18,10 +18,12 @@
         </nav>
     </header>
 
-    <form class="form-result col-6 col-sm-6 col-md-8 col-lg-5 col-xl-6">
+    <form class="form-result col-6 col-sm-6 col-md-8 col-lg-5 col-xl-6" 
+          onsubmit="searchProvidersFromResultsView(); return false;">
         <div class="">
             <div class="input-group">
-                <input type="text" class="form-result-search form-control" placeholder=" De quem você precisa hoje?">
+                <input type="text" class="form-result-search form-control" id="index-search-filter"
+                       placeholder=" De quem você precisa hoje?">
                 <span class="form-result-search-button input-group-btn">
                     <input name="bt-search" class="form-result-button btn btn-success" type="submit" value="Buscar">
                 </span>
@@ -30,9 +32,7 @@
     </form>	
 
     <section class="result-search col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-        <ul class="result-search-list">
-            data-provider-item
-        </ul>
+        <div id="Results-view" />
     </section>
 </div>
 <footer class="footer-result">

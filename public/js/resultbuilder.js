@@ -10,7 +10,6 @@ function ResultBuilder( shape ) {
     };
     
     this.build = function( data ) {
-        var index = 1;
         var providerItemList = "";
         $.map( data, function( provider, providerID ) {
             providerItemList += buildItem( provider );

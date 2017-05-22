@@ -1,36 +1,39 @@
-function EngineSearch( providersRepository ) {
+function SearchEngine( providersRepository ) {
     var repository = providersRepository;
     var engine;
     var documents = new Array();
-    var providers;
+    var providers = new Array();
     
     this.search = function( filter ) {
-        engine.search( filter );
+        var matches = engine.search( filter );
+        var results = new Array();
+        $.map( matches, function( match, index ) {
+            results.push( providers[match.ref]);
+        });
         
+        return results;
     };
     
     var generateIndex = function(){
-        var idx = lunr(function () {
+        engine = lunr(function () {
             this.ref('id')
             this.field('tags')
             
             documents.forEach(function (doc) {
                 this.add(doc)
             }, this)
-        });
-        
-        console.log( documents );
+        })
     };
     
-    var initializeEngine = function( providerList ) {
-        providers = providerList;
+    var initializeEngine = function( providerList ) {        
         
         $.map( providerList, function( provider, providerID ) {
             documents.push( {id:providerID, tags:provider.tags} );
+            providers[providerID] = provider;
         });
 
         generateIndex();
     };
-    
+    //repository.getProvidersByTags( tags, tryBuildView );
     repository.getAll( initializeEngine );
 }

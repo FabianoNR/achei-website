@@ -1,28 +1,35 @@
 function ResultService( callback, idOfSearchInput ) {
-    var callback = callback;
     var builder;
-    var repository = new ProvidersRepository();
-    var resultsViewSample = "";
+    var callback = callback;
     var searchInputID = idOfSearchInput;
+    var searchEngine = new SearchEngine( new ProvidersRepository() );
+    var resultsViewSample = "";
+    var resultsListSample = '"<ul class="result-search-list">data-provider-item</ul>"';
+    
     
     
     this.loadView = function() {
+        var view;
+        var userInput = getUserInput();
+        callback.call( view, resultsViewSample );
+        setUserInput( userInput );
+        this.loadJustListView();
+    };
+    
+    this.loadJustListView = function() {
         var userInput = getUserInput();
         
         if( isValid( userInput ) ){
-            var tags = userInput.toLowerCase();
-            //return repository.getProvidersByTags( tags, tryBuildView );
-            return repository.getAll( tryBuildView );
+            var filter = userInput.toLowerCase();
+            var providers = searchEngine.search( filter );
+            tryBuildView( providers );
         }
     };
     
-    var tryBuildView = function( data ) {
-        var providerItemList = builder.build( data );
-        
-        var resultView = resultsViewSample.replace( 'data-provider-item', providerItemList );
-        
-        var view;
-        callback.call( view, resultView );
+    var tryBuildView = function( providers ) {
+        var providerItemList = builder.build( providers );
+        var resultView = resultsListSample.replace( 'data-provider-item', providerItemList );
+        $("#Results-view").html( resultView );
     };
     
     var isValid = function( userInput ) {
@@ -43,6 +50,10 @@ function ResultService( callback, idOfSearchInput ) {
     
     var getUserInput = function() {
         return $(searchInputID).val();  
+    };
+    
+    var setUserInput = function( userInput ) {
+        return $(searchInputID).val( userInput );  
     };
     
     loadResultsView();
