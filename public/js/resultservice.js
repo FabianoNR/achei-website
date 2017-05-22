@@ -4,7 +4,7 @@ function ResultService( callback, idOfSearchInput ) {
     var searchInputID = idOfSearchInput;
     var searchEngine = new SearchEngine( new ProvidersRepository() );
     var resultsViewSample = "";
-    var resultsListSample = '"<ul class="result-search-list">data-provider-item</ul>"';
+    var resultsListSample = '<ul class="result-search-list">data-provider-item</ul>';
     
     
     
@@ -37,7 +37,7 @@ function ResultService( callback, idOfSearchInput ) {
     };
     
     var loadResultsView = function () {
-        $.get( "../resultados.html", function( data ) {
+        $.get( "../results.html", function( data ) {
             resultsViewSample = data;
         });
     };
