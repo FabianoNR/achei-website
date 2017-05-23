@@ -22,11 +22,11 @@ function ResultService( callback, idOfSearchInput ) {
         if( isValid( userInput ) ){
             var filter = userInput.toLowerCase();
             var providers = searchEngine.search( filter );
-            tryBuildView( providers );
+            setListView( providers );
         }
     };
     
-    var tryBuildView = function( providers ) {
+    var setListView = function( providers ) {
         var providerItemList = builder.build( providers );
         var resultView = resultsListSample.replace( 'data-provider-item', providerItemList );
         $("#Results-view").html( resultView );

@@ -8,7 +8,7 @@ function SearchEngine( providersRepository ) {
         var matches = engine.search( filter );
         var results = new Array();
         $.map( matches, function( match, index ) {
-            results.push( providers[match.ref]);
+            results[match.ref] = providers[match.ref];
         });
         
         return results;

@@ -32,5 +32,9 @@ function searchProvidersFromResultsView() {
     resultService.loadJustListView();
 };
 
+function knowMoreProfile( anchor ) {
+    //$("span").closest("ul");
+    console.log(anchor);
+};
 
 //$("#index-search").attr("action", "resultados.html").submit();

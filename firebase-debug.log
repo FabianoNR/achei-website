@@ -1,35 +1,27 @@
 [debug] ----------------------------------------------------------------------
-[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Fabiano\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] CLI Version:  3.7.0
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\fabiano.rapkiewicz.NB-002990\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.9.0
 [debug] Platform:     win32
-[debug] Node Version: v6.10.0
-[debug] Time:         Sun May 21 2017 14:52:55 GMT-0300 (Hora oficial do Brasil)
+[debug] Node Version: v6.10.2
+[debug] Time:         Mon May 22 2017 20:20:22 GMT-0300 (Hora oficial do Brasil)
 [debug] ----------------------------------------------------------------------
 [debug] 
 [debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/klTcJhnoC5ZUcv-wgTaI_c3x_Xz7oKimN4vyj3hpD0LOzguQty8TVuy79cPbMcVp',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sun May 21 2017 14:52:55 GMT-0300 (Hora oficial do Brasil)
-[debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/achei-quem-faz  
- Sun May 21 2017 14:52:56 GMT-0300 (Hora oficial do Brasil)
+ Mon May 22 2017 20:20:22 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/achei-quem-faz/tokens  
- Sun May 21 2017 14:52:58 GMT-0300 (Hora oficial do Brasil)
+ Mon May 22 2017 20:20:23 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
-[info] Starting Firebase development server...
 [info] 
-[info] Project Directory: C:\Projetos\achei-website
+[info] === Serving from 'C:\Users\fabiano.rapkiewicz.NB-002990\Documents\Projetos\achei-website'...
+[info] 
 [debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/achei-quem-faz  
- Sun May 21 2017 14:52:58 GMT-0300 (Hora oficial do Brasil)
+ Mon May 22 2017 20:20:24 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/949550863077/clients/_:getWebAppConfig  
- Sun May 21 2017 14:52:59 GMT-0300 (Hora oficial do Brasil)
+ Mon May 22 2017 20:20:25 GMT-0300 (Hora oficial do Brasil)
 [debug] <<< HTTP RESPONSE 200
-[info] Public Directory: public
-[info] 
-[info] Server listening at: http://localhost:5000
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
