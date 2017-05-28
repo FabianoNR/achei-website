@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="Result-view">
     <header class="menu menu-black col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <nav class="menu-container">
             <h1>
@@ -19,7 +19,7 @@
     </header>
 
     <form class="form-result col-6 col-sm-6 col-md-8 col-lg-5 col-xl-6" 
-          onsubmit="searchProvidersFromResultsView(); return false;">
+          onsubmit="searchProviders(); return false;">
         <div class="">
             <div class="input-group">
                 <input type="text" class="form-result-search form-control" id="index-search-filter"
@@ -32,7 +32,7 @@
     </form>	
 
     <section class="result-search col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-        <div id="Results-view" />
+        <div id="Provider-list-view" />
     </section>
 </div>
 <footer class="footer-result">

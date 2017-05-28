@@ -1,10 +1,9 @@
-function SearchEngine( providersRepository ) {
-    var repository = providersRepository;
+function SearchEngineService( data ) {
     var engine;
     var documents = new Array();
     var providers = new Array();
-    
-    this.search = function( filter ) {
+	
+    this.searchProviders = function( filter ) {
         var matches = engine.search( filter );
         var results = new Array();
         $.map( matches, function( match, index ) {
@@ -13,6 +12,10 @@ function SearchEngine( providersRepository ) {
         
         return results;
     };
+	
+	this.getProvider = function( providerID ) {
+		return providers[providerID];
+	};
     
     var generateIndex = function(){
         engine = lunr(function () {
@@ -25,15 +28,15 @@ function SearchEngine( providersRepository ) {
         })
     };
     
-    var initializeEngine = function( providerList ) {        
+    var initializeEngine = function( data ) {        
         
-        $.map( providerList, function( provider, providerID ) {
+        $.map( data, function( provider, providerID ) {
             documents.push( {id:providerID, tags:provider.tags} );
             providers[providerID] = provider;
         });
 
         generateIndex();
     };
-    //repository.getProvidersByTags( tags, tryBuildView );
-    repository.getAll( initializeEngine );
+	
+	initializeEngine( data );
 }
