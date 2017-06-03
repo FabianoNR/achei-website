@@ -8,16 +8,6 @@ var TOKEN_PROFILE = '#perfil';
 
 $(document).ready(function(){
     
-    $('.carousel').carousel({
-  		interval: 7000
-	});  
-
-    $('.carousel2').carousel();  
-
-    $('.hamburger').click(function(){
-        $(".menu-container-list").toggleClass("menu-down");
-    });
-    
 	new TemplateLoader().load( function( templates ) {
 		builder = new ComponentViewBuilder( templates );
 		initialize();
@@ -47,6 +37,7 @@ function render(url) {
 		'': function() {
 			var view = builder.buildPresenterView();
 			setView( view );
+			startCarousel();
 		},
 
 		'#perfil': function() {
@@ -95,4 +86,16 @@ function setResultViewIfNecessary( filter ) {
 
 function knowMoreProfile( providerID ) {
 	window.location.hash = TOKEN_PROFILE + '=' + providerID;
+};
+
+function startCarousel() {
+	$('.carousel').carousel({
+  		interval: 7000
+	});  
+
+    $('.carousel2').carousel();  
+
+    $('.hamburger').click(function(){
+        $(".menu-container-list").toggleClass("menu-down");
+    });
 };

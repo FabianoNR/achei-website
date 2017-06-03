@@ -3,9 +3,9 @@ function ComponentViewBuilder( mapOfTemplates ) {
 	var templates = mapOfTemplates;
 	
 	this.buildPresenterView = function(){
-		var a = templates['index-search'];
-		var b = templates['index-footer'];
-		return a + b;
+		var htmlSearch = templates['index-search'];
+		var htmlFooter = templates['index-footer'];
+		return htmlSearch.replace( 'data-html-footer', htmlFooter );
 	};
 	
 	this.buildProfileView = function( provider ) {
@@ -16,6 +16,7 @@ function ComponentViewBuilder( mapOfTemplates ) {
 		
 		var html = templates['profile'];
 		html = html.replace( "data-provider-nickname", provider.nickname );
+		html = html.replace( "data-provider-photo", provider.photo );
 		html = html.replace( "data-provider-profission", provider.profission );
 		html = html.replace( "data-provider-description", provider.description );
         html = html.replace( "data-provider-location", provider.location );
@@ -48,6 +49,7 @@ function ComponentViewBuilder( mapOfTemplates ) {
 		
 		html = html.replace( "data-provider-ID", id );
         html = html.replace( "data-provider-name", provider.nickname );
+		html = html.replace( "data-provider-photo", provider.photo );
         html = html.replace( "data-provider-profission", provider.profission );
         html = html.replace( "data-provider-description", provider.description );
         html = html.replace( "data-provider-price", provider.lower_supply.price );
